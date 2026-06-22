@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "goes-19",
+      "provider": "NOAA",
+      "cadence_minutes": 10,
+      "coverage": "Americas"
+    },
+    {
+      "id": "insat-3ds",
+      "provider": "ISRO",
+      "cadence_minutes": 15,
+      "coverage": "Indian Ocean Region"
+    },
+    {
+      "id": "himawari-8",
+      "provider": "JMA",
+      "cadence_minutes": 10,
+      "coverage": "Asia-Pacific"
+    }
+  ]
+}

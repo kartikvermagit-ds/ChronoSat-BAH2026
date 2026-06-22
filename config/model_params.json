@@ -1,0 +1,11 @@
+{
+  "rife": {
+    "checkpoint": "models/checkpoints/rife-starter.pth",
+    "scale": 1.0,
+    "tta": false
+  },
+  "optical_flow": {
+    "method": "dense-demo",
+    "pyramid_levels": 3
+  }
+}

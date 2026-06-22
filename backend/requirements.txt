@@ -1,0 +1,19 @@
+# ChronoSat backend prototype requirements
+# Target runtime: Python 3.12
+
+# Core API
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+pydantic==2.11.7
+python-multipart==0.0.20
+
+# Prototype processing
+numpy==1.26.4
+Pillow==11.2.1
+
+# Testing
+pytest==8.3.5
+
+# Optional heavier scientific readers for later phases:
+# xarray==2024.11.0
+# h5py==3.12.1

@@ -1,0 +1,9 @@
+app:
+  name: ChronoSat
+  environment: development
+
+pipeline:
+  default_satellite: insat-3ds
+  frame_gap_minutes: 10
+  generated_frames: 3
+  interpolation_method: rife
